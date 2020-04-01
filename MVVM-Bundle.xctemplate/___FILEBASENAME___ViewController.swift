@@ -6,10 +6,13 @@ import RxCocoa
 
 protocol ___FILEBASENAME___Route {
     // sample: func routeToLogin
+    func back(_ vc: ___FILEBASENAME___)
 }
 
 class ___FILEBASENAME___: UIViewController, Instantiatable {
 
+    // MARK: - Outlets
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
